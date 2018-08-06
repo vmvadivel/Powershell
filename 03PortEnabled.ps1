@@ -1,12 +1,12 @@
 
 $Port = "1433"
 $Server = "mytest.cloudapp.net"
- 
+Â 
 if ($Server -and ($Port -eq "")) 
 {
     Test-NetConnection -ComputerName $Server -InformationLevel Detailed
 }
- 
+Â 
 if ($Port -ne "") 
 {
     Test-NetConnection -ComputerName $Server -InformationLevel Detailed -Port $Port
