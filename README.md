@@ -1,2 +1,2 @@
 # Powershell
-Powershell scripts I have used for cloud automation / task maintenance are saved here
+Powershell scripts used for cloud automation / task maintenance are saved here
